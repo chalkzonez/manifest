@@ -6,8 +6,8 @@
           revision="refs/heads/lineage-17.1" />
 
   <remote name="nad"
-        fetch="https://github.com/NusantaraProject-ROM/"
-        revision="refs/heads/10" />
+          fetch="https://github.com/NusantaraProject-ROM/"
+          revision="refs/heads/10" />
 
   <!-- Device -->
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" remote="lineage" />
