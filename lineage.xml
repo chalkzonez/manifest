@@ -161,7 +161,7 @@
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="lineage" />
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="lineage" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="Pixel" />
-  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_commonsys_bluetooth_ext" remote="Pixel" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="lineage" revision="lineage-17.1" />
   <!--project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="Pixel" /-->
 
 </manifest>
