@@ -19,6 +19,10 @@
            fetch="https://github.com/PixelExperience/"
            revision="refs/heads/ten" />
 
+  <remote  name="lineage"
+           fetch="https://github.com/LineageOS/"
+           revision="refs/heads/lineage-17.1" />
+
     <!-- General Repos -->
     <project path="art" name="art" remote="xtended" />
     <project path="bionic" name="bionic" remote="xtended" />
@@ -81,7 +85,8 @@
     <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_display" remote="xtended" revision="xq-sm8150" />
 
     <!-- Packages Repos -->
-    <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="xtended" />
+    <!--project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="xtended" /-->
+    <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="lineage" />
     <project path="packages/apps/CertInstaller" name="packages_apps_CertInstaller" remote="xtended" />
     <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="xtended" />
     <project path="packages/apps/CustomDoze" name="packages_apps_CustomDoze" remote="xtended" />
@@ -120,8 +125,8 @@
     <project path="prebuilts/r8" name="prebuilts_r8" remote="xtended" clone-depth="1" />
 
     <!-- System Repos -->
-    <project path="system/bt" name="system_bt" remote="xtended" />
-    <!--project path="system/bt" name="system_bt" remote="Pixel" /-->
+    <!--project path="system/bt" name="system_bt" remote="xtended" />
+    <project path="system/bt" name="android_system_bt" remote="lineage" />
     <project path="system/bpf" name="system_bpf" remote="xtended" />
     <project path="system/core" name="system_core" remote="xtended" />
     <project path="system/extras" name="system_extras" remote="xtended" />
