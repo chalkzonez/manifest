@@ -15,6 +15,9 @@
            fetch="https://github.com/Xtended-Devices"
            revision="refs/heads/xq" />
 
+  <remote  name="Pixel"
+           fetch="https://github.com/PixelExperience/"
+           revision="refs/heads/ten" />
 
     <!-- General Repos -->
     <project path="art" name="art" remote="xtended" />
@@ -117,7 +120,8 @@
     <project path="prebuilts/r8" name="prebuilts_r8" remote="xtended" clone-depth="1" />
 
     <!-- System Repos -->
-    <project path="system/bt" name="system_bt" remote="xtended" />
+    <!--project path="system/bt" name="system_bt" remote="xtended" /-->
+    <project path="system/bt" name="system_bt" remote="Pixel" />
     <project path="system/bpf" name="system_bpf" remote="xtended" />
     <project path="system/core" name="system_core" remote="xtended" />
     <project path="system/extras" name="system_extras" remote="xtended" />
